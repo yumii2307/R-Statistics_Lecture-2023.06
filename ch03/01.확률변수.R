@@ -16,3 +16,16 @@ ex = sum(x * px)            # 2
 x2 = x ^ 2                  # 0 1 4 9 16
 ex2 = sum(x2 * px)          # 5
 varx = ex2 - ex ^ 2         # 1
+
+### 주사위를 2회 던졌을 때 3의 배수의 갯수
+x = c(0, 1, 2)
+px = c(4/9, 4/9, 1/9)
+ex = sum(x * px)            # 기댓값, 2/3
+ex
+
+x2 = x ^ 2
+x2                          # 0 1 4
+ex2 = sum(x2 * px)
+ex2                         # 기댓값, 8/9
+varx = ex2 - ex^2           # 분산, 4/9
+varx
