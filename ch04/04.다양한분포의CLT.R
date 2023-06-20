@@ -142,4 +142,4 @@ lines(x4, y4, lty=2, lwd=2, col='blue')
 
 mtext('F 표본평균의 분포(자유도=5)', outer=T, cex=1.2)
 
-par(mfrow=c(1, 1))
+par(mfrow=c(1, 1))  
